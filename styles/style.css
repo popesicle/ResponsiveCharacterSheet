@@ -1,0 +1,97 @@
+p {
+	margin-bottom: 0;
+}
+
+textarea {
+	width: 89%;
+	height: 45px;
+	border: 2px solid white;
+	background-color: #52A3CC;
+	color: white;
+}
+
+textarea:focus {
+	outline: none;
+	border-color: #244859;
+}
+
+textarea::-webkit-input-placeholder {
+	color: #2F586C;
+	font-style: italic;
+}
+
+input {
+	width: 90%;
+	background-color: #52A3CC;
+	border: 2px solid white;
+	color: white;
+}
+
+input:focus {
+	border-color: #244859;
+	outline: none;
+}
+
+input::-webkit-input-placeholder {
+	color: #2F586C;
+	font-style: italic;
+}
+
+option {
+	font-style: italic;
+}
+
+select {
+	background-color: #52A3CC;
+	border: none;
+	color: white;
+	width: 93%;
+}
+
+select:focus {
+		outline: none;
+	}
+
+@media screen and (min-width: 795px) {
+	#maincontainer {
+			background-color: #52A3CC;
+		    padding: 1%;
+		    padding-left: 4%;
+		    display: flex;
+		    border-width: 5px;
+		    border-style: groove;
+		    width: 795px;
+		    margin: 0 auto;
+	}
+
+	.columns {
+			color: white;
+			font-family: arial;
+			vertical-align: top;
+			width: 33%;
+			font-size: small;
+	}	
+}
+
+@media screen and (max-width: 794px) {
+	.columns {
+		background-color: #52A3CC;
+	    color: white;
+	    font-family: arial;
+	    vertical-align: top;
+	    max-width: 200px;
+	    padding-top: 20px;
+	    margin: auto;
+	}
+
+	#maincontainer {
+		display: block;
+		background-color: #52A3CC;
+	    padding: 1%;
+	    padding-left: 4%;
+	    border: 3px solid white;
+	    max-width:400px;
+	    border-style: groove;
+	    margin:auto;
+	}
+}
